@@ -6,8 +6,6 @@ public abstract class FiguraGeometrica {
     public FiguraGeometrica(String nombreFigura) {
         this.nombreFigura = nombreFigura;
     }
-
-
     public abstract double calcularArea();
     public abstract boolean regular();
 
